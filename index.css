@@ -1,0 +1,376 @@
+.main {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.bodyOne {
+    width: 22%;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid black;
+}
+
+.instaName {
+    margin: 9% 0px 0px 20px;
+
+}
+
+.spanHome {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.homeIcon {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.homeAsideH1 {
+    margin: -1px 0px 10px 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 13px 0px !important;
+}
+
+.homeAside {
+    margin: 11% 0px 0px 7px;
+    cursor: pointer;
+    width: 78%;
+    padding: 0px 0px 0px 15px;
+    border-radius: 20px;
+
+}
+
+.homeAside:hover {
+    background-color: rgb(237, 235, 234);
+    transition: 0.8s;
+}
+
+.searchMainOne {
+    cursor: pointer;
+    margin: 3px 0px 10px 5px !important;
+    width: 78% !important;
+    text-align: justify !important;
+    padding: 11px 0px !important;
+    border-radius: 10px !important;
+}
+
+.searchMainOne:hover {
+    background-color: rgb(237, 235, 234) !important;
+    transition: 0.8s;
+}
+
+.searchIcon {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+.searchWord {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 0px 13px;
+}
+
+.searchCanva {
+    margin: 0px 0px 0px 50px;
+}
+
+.searchInput {
+    width: 95% !important;
+    margin-left: 10px;
+}
+
+.allIcon {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 0px 0px 15px;
+}
+
+.createAngler {
+    margin: 0px 0px 10px 7px;
+    width: 78%;
+    border-radius: 10px !important;
+
+}
+
+.createAngler:hover {
+    background-color: rgb(237, 235, 234) !important;
+    transition: 0.8s;
+}
+
+.createIconM {
+    margin-left: -98px;
+    padding: 8px 0px;
+    border-radius: 10px;
+}
+
+.MenuWord {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 0px 13px;
+}
+
+.menuMainIcon {
+    margin-top: 55px !important;
+}
+
+.exporeVideoAside {
+    margin: 0px 0px 0px 17% !important;
+    width: 81% !important;
+    /* background-color: aliceblue !important; */
+}
+
+.reelsVideoSrc {
+    margin: 0px 0px 0px 30%;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.searchCanva {
+    border-left: 1px solid black;
+}
+
+.messageCanva {
+    width: 1210px !important;
+
+    /* background-color: antiquewhite !important; */
+}
+
+.messageBOne {
+    width: 340px;
+    border-right: 1px solid black;
+}
+
+.messOne {
+    width: 327px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    /* background-color: aliceblue; */
+    margin: 0px 0px 0px 7px;
+}
+
+.messOne:hover {
+    background-color: rgb(237, 235, 234);
+    transition: 0.8s;
+}
+
+.messTextOne {
+    margin: 6px 0px -17px 17px;
+    font-size: 13px;
+}
+
+.messTextOne>h5 {
+    margin: 0px 0px -2px 0px;
+    font-size: 16px;
+}
+
+.messageBody {
+    display: flex;
+}
+
+
+.bodyTwo {
+    margin: 9px 0px 0px 22%;
+    width: 77%;
+    display: flex;
+}
+
+.mainScrollBody {
+    display: flex;
+    overflow: scroll;
+    width: 595px;
+    margin-left: 5px;
+    gap: 10px;
+}
+
+.mainScrollBody::-webkit-scrollbar {
+    width: 0;
+}
+
+.mainPost {
+    width: 460px;
+
+    margin: 0px 0px 0px 64px;
+}
+
+.postVideo {
+
+    background: black;
+    border-radius: 5px;
+
+    margin: 4px 0px 0px 0px;
+}
+
+.postOne {
+    display: flex;
+    align-items: center;
+}
+
+.postOne>p {
+    padding: 10px 0px 0px 5px;
+}
+
+.postOne>span {
+    padding: 0px 0px 0px 58%;
+}
+
+.postVideoOne {
+    width: 340px;
+    height: 592px;
+    margin: 0px 0px -5px 56px;
+}
+
+.postIcons {
+    display: flex;
+    font-size: 21px;
+    margin: 9px 0px 0px 8px;
+    gap: 22px;
+}
+
+.postIcons>span {
+    padding: 0px 0px 0px 72%;
+    margin-top: -7px;
+}
+
+.captainPost {
+    font-size: 13px;
+    margin: 0px 0px 0px 8px;
+}
+
+.captainPostAll {
+    margin-bottom: 1px;
+}
+.summaryTwo{
+    width: 38%;
+}
+.profileSwitch{
+    margin: 0px 0px 0px 35px;
+}
+.profileSwitchText{
+    margin: 18px 0px 0px 6px;
+    
+    font-size: 10px;
+    text-align: end;
+}
+.switchWord  {
+    margin: 0px 0px 0px 35%;
+    color: #1aa0f7;
+}
+.suggest{
+    display: flex;
+    margin: 11px 0px 0px 13%;
+    gap: 29%;
+}
+.suggest >p:nth-child(1){
+    color: #aeaeae;
+}
+.suggest >p:nth-child(2){
+      font-size: 12px;
+      font-weight: bold;
+}
+.followHead{
+    
+    margin: 5px 0px 0px 11%;
+}
+.followMain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.followText > p:nth-child(1) {
+    margin-bottom: 0px;
+    padding: 16px 0px 0px 0px;
+}
+.followWord {
+    margin: 0px 0px 0px 39px;
+    color: #1aa0f7;
+}
+
+#myVideo{
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* not owm */
+#hiddenDiv {
+    visibility: hidden;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+.container1{
+    
+    width: 810px !important;
+}
+
+.message {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 20px;
+    max-width: 70%;
+}
+
+.message.sent {
+    background-color: #dcf8c6;
+    align-self: flex-end;
+}
+
+.message.received {
+    background-color: #f1f0f0;
+    align-self: flex-start;
+}
+
+
+
+
+
+
+/*  bootsrap code recrea*/
+.offcanvas-backdrop.show {
+    opacity: 0 !important;
+    display: none !important;
+    /* Optionally, to prevent it from taking up any space */
+}
